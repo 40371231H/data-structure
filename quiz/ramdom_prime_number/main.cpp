@@ -21,7 +21,7 @@ int main(int argc, char **argv)
     srand(seed);
     for (i = 0; i < 10000; i++)
     {
-        num = rand() % 32768 + 1;
+        num = rand() % 32767 + 1;
         // cout << num << endl;
         list[i] = num;
         if (is_a_prime(num))
