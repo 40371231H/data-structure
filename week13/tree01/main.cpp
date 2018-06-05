@@ -7,10 +7,12 @@ using namespace std;
 
 typedef struct node_type
 {
-    char data;
+    int data;
     struct node_type *llink;
     struct node_type *rlink;
 } Node;
+
+void show(Node *p);
 
 int main(int argc, char *argv[])
 {
