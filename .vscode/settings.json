@@ -4,7 +4,9 @@
         "iostream": "cpp",
         "ostream": "cpp",
         "fstream": "cpp",
-        "locale": "cpp"
+        "locale": "cpp",
+        "string": "cpp",
+        "string_view": "cpp"
     },
     "files.autoSave": "afterDelay",
     "editor.formatOnPaste": true,
